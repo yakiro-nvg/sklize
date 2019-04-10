@@ -1,0 +1,28 @@
+{
+    "name": "sklize",
+    "version": "0.1.0",
+    "description": "turn sketch file to skl tree",
+    "main": "js/index.js",
+    "bin": {
+        "sklize": "./js/bin/sklize.js"
+    },
+    "directories": {
+        "lib": "js/lib"
+    },
+    "files": [
+        "js/bin/",
+        "js/bin/*.js",
+        "js/index.js",
+        "js/src/**/*"
+    ],
+    "author": "Giang 'Yakiro' Nguyen <yakiro.nvg@gmail.com>",
+    "license": "BSD-2-Clause",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yakiro-nvg/sklize.git"
+    },
+    "dependencies": {
+        "commander": "^2.20.0",
+        "node-sketch": "^0.13.0"
+    }
+}
