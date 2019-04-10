@@ -39,7 +39,6 @@ function saveImages(repo, outDir) {
     repo.forEach(async (name, file) => {
         if (!name.startsWith('images/')) return
         const buf = await file.async('nodebuffer')
-        console.log(name)
         fs.writeFileSync(path.join(outDir, name), buf)
     })
 }
